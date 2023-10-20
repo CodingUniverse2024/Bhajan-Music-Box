@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bhajan Machine</title>
+</head>
+<body>
+    <div class="container">
+        <video src="animate_bg.mp4" loop muted autoplay id="background">
+        </video>
+        <div class="screen">
+            <img id="logo">
+            <div class="txt"><marquee scrollamount="5" id="title"></marquee></div>
+            
+        </div>
+        <div class="control">
+            <a onclick="prev()" id="prev"><img src="prev.png" id="prev"></a>
+            <a onclick="play_x()"  id="play"><img src="play.png" id="play"></a>
+            <a onclick="next()" id="next"><img src="next.png" id="next"></a>
+        </div>
+    </div>
+    <script src="main.js">
+
+    </script>
+</body>
+</html>

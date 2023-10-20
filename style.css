@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    user-select: none;
+    user-zoom: none;
+}
+body{
+    font-size: 10px;
+}
+.container{
+    background-color:white;
+    height: 300px;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    color: white;
+    top: -20px;
+}
+#background{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    left: 0%;
+}
+.screen{
+    background-color: aliceblue;
+    position: relative;
+    top: -380px;
+    height: 255px;
+    width: 95%;
+    left: 2.5%;
+    color: white;
+}
+h1{
+    color: wheat;
+}
+#logo{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 32%;
+    top: 10px;
+    animation: rot;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
+#title{
+    color: black;
+    position: relative;
+    top: 170px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.txt{
+    width: 30%;
+    position: relative;
+    left: 35%;
+
+}
+.control{
+    position: relative;
+    top: -440px;
+    left: 32%;
+    width: 50%;
+}
+#prev{
+    height: 50px;
+    width: 50px;
+}
+#play{
+    height: 50px;
+    width: 50px;
+}
+#next{
+    height: 50px;
+    width: 50px;
+}
